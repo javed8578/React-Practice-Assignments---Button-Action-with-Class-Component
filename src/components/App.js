@@ -9,7 +9,7 @@ class App extends React.Component {
     render() {
     	return(
     		<div id="main">
-				<button onClick={this.handleClick} id="click">Button</button>
+				<button onClick="handleClick(e)" id="click">Button</button>
 
 				{ /* Do not remove this main div!! */ }
     		</div>
